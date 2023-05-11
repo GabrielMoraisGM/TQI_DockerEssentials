@@ -1,0 +1,82 @@
+/*
+    Configurações globais
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*
+    Configurações Header
+
+*/
+
+.navbar{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+.options{
+    margin: 20px;
+    text-align: center;
+}
+
+/*
+    Configurações conteudo
+*/
+
+.main{
+    height: calc(100% - 100px);
+    padding-top: 40px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.main-body{
+    align-items: center;
+    width: 90%;
+}
+
+/*
+    Configurações footer
+*/
+   
+.footer{
+    position: fixed;
+    bottom: 0;
+    z-index: 0;
+
+    height: 50px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: darkgray;
+}
+
+.footer nav a{
+    margin-left: 10px;
+}
+
